@@ -1,9 +1,12 @@
 #op {
-    transition: transform 50s;
-    transform: scale(20);
+    transition: transform 2000000s;
+    transform: scale(200000000);
+    //transform: rotate(720000000deg);
+    //transition: rotate 50s;
 }
 
 #p {
     transition: transform 0.25s;
     transform: scale(0);
+    //transform: rotate(0deg);
 }
