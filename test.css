@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0; /* body box 編距為0 */
+    font-family: sans-serif; /* 字型 sans-serif */
+    user-select: none; /* 防止文字被選取 */
+}
+
+#style1 {
+    display: flex;
+    flex-direction: column; /* flex 排版方向 column */
+    justify-content: center;
+    align-items: center;
+    background-color: #bdaa90; /* 容器樣式 背景顏色 #bdaa90 */
+    width: 100%;
+    height: 100vh; /* 容器 box 高度 100vh */
+}
+
+#popcat {
+    width: 80%; /* 標題 box 寬度 80% */
+    margin-top: 2em; /* 上方間距 2em */
+    max-width: 600px; /* 標題 box 最大寬度 600px */
+    justify-content: center;
+    align-items: center;
+}
+
+#num {
+    width: 100%; /* 文字 box 寬度 100% */
+    max-width: 800px; /* 文字 box 最大寬度 800px */
+    display: flex;
+    color: white; /* 文字樣式 文字白色 */
+    -webkit-text-stroke: 3px black; /* 文字樣式 -webkit-text-stroke 3px 黑色 */
+    font-size: 80px; /* 文字樣式 大小 80px */
+    justify-content: center;
+    align-items: center;
+    background-image: url('imgs/p.png'); /* 文字 div 背景圖片 用 id 設定 imgs/p.png */
+    background-size: contain; /* 圖片填滿容器 contain */
+    background-position: bottom; /* 圖片靠下 */
+    background-repeat: no-repeat; /* 不重複 */
+    flex: 1; /* 文字 div 排版填滿剩餘空間 */
+}
+
+#op {
+    background-image: url('imgs/op.png'); /* 新贈文字 div 背景圖片 用 id 設定 imgs/op.png */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

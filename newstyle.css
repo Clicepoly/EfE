@@ -1,0 +1,9 @@
+#op {
+    transition: transform 50s;
+    transform: scale(20);
+}
+
+#p {
+    transition: transform 0.25s;
+    transform: scale(0);
+}
